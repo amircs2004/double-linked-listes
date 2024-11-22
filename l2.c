@@ -34,16 +34,11 @@ void print(struct node* tail){
   {
     printf("no element in the fucking list ");
   }
-   else{
-    struct node * temp = tail->next ;
-    do
-    {
-      printf("%d", temp->data);
-      temp = temp->next ;
-    }while(temp != tail->next);
+//      temp = tail->next ;
+//    }while(temp != tail->next);
    }
-printf("\n");
-}
+//printf("\n");
+
 
 int main()
 {
